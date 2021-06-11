@@ -22,7 +22,52 @@ nav {
   width:80%;
   height: auto;
 }
-
+h1 {
+  font-family: 'Staatliches', cursive;
+}
+footer{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  height:50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.contactme{
+  width:50%;
+  float:left;
+  background-color: white;
+}
+.contactme a{
+  text-decoration: none;
+  color:blue;
+  font-family: 'Montserrat', cursive;
+  background-color: white;
+}
+.socialmediaicons{
+  text-align: right;
+  width:50%;
+  float:right;
+  background-color: white;
+}
+.socialmediaicons a{
+  margin-left: 40px;
+  padding-right: 100px;
+  background-color: white;
+}
+.contactme a{
+  display:inline-block;
+  vertical-align: middle;
+}
+.socialmedialogo{
+  width:45px;
+  height:40px;
+  background-color: white;
+}
+.contactme img{
+  padding-left: 180px;
+}
 @media only screen and (min-width:768px){
   .logo{
     display:block;
@@ -84,7 +129,10 @@ nav {
   .info-img{
     padding-top:30px;
   }
-
+  .contactme{
+    width:650px;
+    margin:0 auto;
+  }
 @media only screen and (min-width:1000px){
   .wrapper{
     width:1000px;
