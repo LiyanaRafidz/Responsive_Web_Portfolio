@@ -1,6 +1,6 @@
 *{
   border-sizing:border-box;
-  background:   #B96A32 ;
+  background:   #717D7E ;
   margin:0;
   padding:0;
 }
@@ -28,7 +28,7 @@ nav {
   border-radius: 50%;
 }
 h1 {
-  font-family: 'Staatliches', cursive;
+  font-family: 'Staatliches';
 }
 .footer{
   width: 100%;
@@ -56,10 +56,46 @@ h1 {
   padding-right: 20px;
 }
 #instagram{
-  width:85px;
+  width:90px;
 }
+.skillsdiv{
+  margin-bottom: 40px;
+  text-align: center;
+}
+.skillsdiv p{
+  margin-bottom: 30px;
+}
+.skillsdiv img{
+  width:40px;
+  margin:0 15px;
+}
+.projectdiv{
+  display: flex;
+  justify-content: space-between;
+  flex: wrap;
+  width:100%;
+  margin-bottom: 70px;
+}
+.projectimagesdiv{
+  padding-right: 20px;
+}
+.projecttextdiv{
+  padding-left: 60px;
+  padding-right: 10px;
+  line-height: 40px;
 
-
+}
+.projectimagesdiv img{
+  height: 400px;
+  length: 600px;
+  transition: all 0.3s ease 0s;
+}
+.projectimagesdiv img:hover{
+  transform: scale(1.05);
+}
+.projecttextdiv ul li{
+  list-style-type: none;
+}
 @media only screen and (min-width:768px){
   .logo{
     display:block;
